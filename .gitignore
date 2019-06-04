@@ -108,3 +108,6 @@ output/
 
 # input files
 input/*.pdf
+
+# pycharm idea directory
+.idea/
