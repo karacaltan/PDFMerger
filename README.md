@@ -25,3 +25,9 @@ Deactivate and remove the virtual environment
 
     deactivate
     rm -rf env
+
+### License
+
+© Altan Mehmet Karacan
+
+Licensed under the [MIT LICENSE](LICENSE).
