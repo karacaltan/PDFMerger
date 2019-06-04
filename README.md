@@ -1,7 +1,7 @@
 # PDFMerger
 
 This is a simple script for merging multiple PDF files into a single PDF file. You can manually set the position for each PDF file.
-It is also possible to define a custom PDF file name of the result file.
+It is also possible to define a custom PDF file name of the result file. The result PDF file can be find in the directory `output`.
 
 ### Requirements
 Python 3.7.x
