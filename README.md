@@ -7,7 +7,7 @@ It is also possible to define a custom PDF file name of the result file.
 Python 3.7.x
 
 ### Try it out
-Put your PDF files to the directory `input` 
+Create a directory called `input` and place your PDF files in it.
 
 It is recommended to install a virtual environment. Create and activate the virtual environment
 
