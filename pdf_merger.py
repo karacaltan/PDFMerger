@@ -5,7 +5,6 @@ merger_path = os.path.dirname(os.path.abspath(__file__))
 pdfs_path = os.path.abspath("{}{}".format(merger_path, '/input'))
 files = os.listdir(pdfs_path)
 merger = PdfFileMerger()
-pdf_order = []
 free_pos = [str(i) for i in range(len(files))]
 pos = free_pos[:]
 for pdf in files:
