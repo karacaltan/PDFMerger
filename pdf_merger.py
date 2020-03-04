@@ -11,8 +11,9 @@ for pdf in files:
     file_extension = os.path.splitext(os.path.basename(pdf))[1]
     if file_extension == '.pdf':
         pdf_pos = input("{} {} {} {} {}".format("Enter one of the free positions", free_pos, "for", pdf, ': '))
-        while not pdf_pos in free_pos:
-            pdf_pos = input("{} {} {} {} {}".format("This was not valid value. Please enter one of the free positions", free_pos, "for", pdf, ': '))
+        while pdf_pos not in free_pos:
+            pdf_pos = input("{} {} {} {} {}".format("This was not valid value. Please enter one of the free positions",
+                                                    free_pos, "for", pdf, ': '))
         free_pos.remove(pdf_pos)
         pos[int(pdf_pos)] = pdf
 for pdf in pos:
